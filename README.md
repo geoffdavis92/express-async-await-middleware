@@ -2,7 +2,7 @@
 
 *Use asynchronous, Promise-based functions in middleware clean up router blocks*
 
-[Read the accompanying article.]()
+[Read the accompanying article.](https://dev.to/geoffdavis/writing-asyncawait-middleware-in-express-6i0)
 
 ## Setup
 
