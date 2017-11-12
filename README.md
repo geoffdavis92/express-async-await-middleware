@@ -2,6 +2,8 @@
 
 *Use asynchronous, Promise-based functions in middleware clean up router blocks*
 
+[Read the accompanying article.]()
+
 ## Setup
 
 1. Clone the repository.
@@ -9,5 +11,3 @@
 3. Start the server: `yarn start` or `npm start`
 
 The server will start at `http://localhost:2017`, or alternatively you can set a custom port like so: `$ PORT=4004 yarn start`.
-
-## Explanation 

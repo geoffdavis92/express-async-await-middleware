@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Express Async/Await Middleware Example</title>
+	<link rel="stylesheet" href="https://unpkg.com/awsm.css@2.1.0/dist/awsm.css">
+	<style>h2 { text-transform: capitalize; }</style>
+</head>
+<body>
+	<main style="max-width: 1000px;">
+		<header>
+			<nav>
+				<a href="/">Home</a>
+			</nav>
+		</header>
+		<% data.forEach(function (post,i,allPosts) { %>
+			<article id="<%= post.id %>">
+				<header>
+					<h2><%= post.title %></h2>
+				</header>
+				<main>
+					<%= post.body %>
+				</main>
+			</article>
+			<% if (allPosts.length > 1 && i !== allPosts.length - 1 ) { %>
+			<hr/>
+			<% } else if (allPosts.length > 1 && i === allPosts.length - 1) { %>
+			<p style="margin:2.5em auto;text-align:center;"><a href="#top">Back to top</a></p>
+		<% }}) %>
+		<footer style="margin:5em auto 2.5em;text-align:center;">
+			<p>View this project on <a href="https://github.com/geoffdavis92/express-async-await-middleware" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+		</footer>
+	</main>
+</body>
+</html>
