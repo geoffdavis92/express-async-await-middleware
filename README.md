@@ -1,6 +1,6 @@
 # Express Async/Await Middleware Example
 
-*Use asynchronus, Promise-based functions in middleware clean up router blocks*
+*Use asynchronous, Promise-based functions in middleware clean up router blocks*
 
 ## Setup
 
@@ -10,3 +10,4 @@
 
 The server will start at `http://localhost:2017`, or alternatively you can set a custom port like so: `$ PORT=4004 yarn start`.
 
+## Explanation 
